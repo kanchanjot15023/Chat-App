@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="naveenpatidar.chatapplication.GroupCreate">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="naveenpatidar.chatapplication.GroupCreate"
+        android:id="@+id/relative">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_marginBottom="4dp"
+                    android:id="@+id/groupName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:hint="Enter Group Name:                  "
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/rounded_corner_edit_text"
+                    android:inputType="textVisiblePassword|textAutoComplete|textAutoCorrect"
+                    android:layout_marginRight="7dp"
+                    />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/sendButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_send"
+                    app:fabSize="normal"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:layout_anchor="@id/coordinatorLayout"
+                    app:layout_anchorGravity="bottom|right|end"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+
+                    android:layout_centerHorizontal="true"
+                    />
+            </LinearLayout>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listContacts"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
