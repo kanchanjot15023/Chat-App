@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: PCSMA
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.pcsma.project
+Build-Jdk: 1.7.0
+Built-By: kapish
+Created-By: Maven Integration for Eclipse
+

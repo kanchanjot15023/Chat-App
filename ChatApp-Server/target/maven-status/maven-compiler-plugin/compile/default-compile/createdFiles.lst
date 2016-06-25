@@ -1,0 +1,6 @@
+com\pcsma\project\User.class
+com\pcsma\project\GroupsRepository.class
+com\pcsma\project\ChatGroupController.class
+com\pcsma\project\UserRepository.class
+com\pcsma\project\UserController.class
+com\pcsma\project\Groups.class
